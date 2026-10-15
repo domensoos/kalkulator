@@ -11,6 +11,7 @@ void izpisiMeni() {
     std::cout << "\n--- Kalkulator ---\n"
               << "1) Seštevanje\n"
               << "2) Odštevanje\n"
+              << "3) Množenje\n"
               << "0) Izhod\n"
               << "Izbira: ";
 }
@@ -37,7 +38,7 @@ int main() {
         }
 
         if (izbira == 0) break;
-        if (izbira < 1 || izbira > 2) {
+        if (izbira < 1 || izbira > 3) {
             std::cout << "Neveljavna izbira.\n";
             continue;
         }
@@ -50,6 +51,7 @@ int main() {
         switch (izbira) {
             case 1: rezultat = kalk.sestej(a, b); break;
             case 2: rezultat = kalk.odstej(a, b); break;
+            case 3: rezultat = kalk.zmnozi(a, b); break;
         }
         std::cout << "Rezultat: " << rezultat << "\n";
     }
