@@ -18,6 +18,11 @@ double Kalkulator::zmnozi(double a, double b) {
     return a * b;
 }
 
+double Kalkulator::deli(double a, double b) {
+    ++stevec;
+    return a / b;
+}
+
 int Kalkulator::steviloOperacij() const {
     return stevec;
 }
