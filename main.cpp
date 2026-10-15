@@ -1,3 +1,4 @@
+// Preprost konzolni kalkulator za vajo z Gitom
 #include <iostream>
 #include <limits>
 #include "Kalkulator.h"
