@@ -9,7 +9,7 @@ void pocistiVnos() {
 }
 
 void izpisiMeni() {
-    std::cout << "\n--- Preprost kalkulator ---\n"
+    std::cout << "\n=== PREPROST KALKULATOR ===\n"
               << "1) Seštevanje\n"
               << "2) Odštevanje\n"
               << "3) Množenje\n"
