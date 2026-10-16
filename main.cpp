@@ -49,6 +49,10 @@ int main() {
         double a, b;
         if (!preberiStevilo("Prvo število: ", a)) continue;
         if (!preberiStevilo("Drugo število: ", b)) continue;
+        if (izbira == 4 && b == 0) {
+            std::cout << "Deljenje z nič ni dovoljeno.\n";
+            continue;
+        }
 
         double rezultat = 0;
         switch (izbira) {
