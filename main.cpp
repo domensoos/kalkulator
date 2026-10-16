@@ -15,6 +15,7 @@ void izpisiMeni() {
               << "3) Množenje\n"
               << "4) Deljenje\n"
               << "5) Potenca\n"
+              << "6) Povprečje\n"
               << "0) Izhod\n"
               << "Izbira: ";
 }
@@ -41,7 +42,7 @@ int main() {
         }
 
         if (izbira == 0) break;
-        if (izbira < 1 || izbira > 5) {
+        if (izbira < 1 || izbira > 6) {
             std::cout << "Neveljavna izbira.\n";
             continue;
         }
@@ -61,6 +62,7 @@ int main() {
             case 3: rezultat = kalk.zmnozi(a, b); break;
             case 4: rezultat = kalk.deli(a, b); break;
             case 5: rezultat = kalk.potenciraj(a, b); break;
+            case 6: rezultat = kalk.povprecje(a, b); break;
         }
         std::cout << "Rezultat: " << rezultat << "\n";
     }
