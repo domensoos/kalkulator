@@ -29,6 +29,12 @@ double Kalkulator::potenciraj(double osnova, double eksponent) {
     return std::pow(osnova, eksponent);
 }
 
+// Vrne aritmetično sredino dveh realnih števil
+double Kalkulator::povprecje(double a, double b) {
+    ++stevec;
+    return (a + b) / 2;
+}
+
 int Kalkulator::steviloOperacij() const {
     return stevec;
 }

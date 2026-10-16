@@ -13,6 +13,7 @@ public:
     double zmnozi(double a, double b);
     double deli(double a, double b);
     double potenciraj(double osnova, double eksponent);
+    double povprecje(double a, double b);
     int steviloOperacij() const;
 private:
     int stevec = 0;
