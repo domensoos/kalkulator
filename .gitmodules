@@ -1,0 +1,3 @@
+[submodule "dodatki"]
+	path = dodatki
+	url = https://github.com/domensoos/kalkulator-dodatki.git
